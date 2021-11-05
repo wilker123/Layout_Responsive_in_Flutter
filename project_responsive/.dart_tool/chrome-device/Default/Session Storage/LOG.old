@@ -1,3 +1,30 @@
-2021/11/02-19:37:33.479 13e8 Reusing MANIFEST C:\Users\Wilker\AppData\Local\Temp\flutter_tools.c578b91d\flutter_tools_chrome_device.1aa7713a\Default\Session Storage/MANIFEST-000001
-2021/11/02-19:37:33.480 13e8 Recovering log #3
-2021/11/02-19:37:33.480 13e8 Reusing old log C:\Users\Wilker\AppData\Local\Temp\flutter_tools.c578b91d\flutter_tools_chrome_device.1aa7713a\Default\Session Storage/000003.log 
+2021/11/04-23:06:47.798 1f88 Reusing MANIFEST C:\Users\Wilker\AppData\Local\Temp\flutter_tools.d3ba3318\flutter_tools_chrome_device.a58b34ff\Default\Session Storage/MANIFEST-000001
+2021/11/04-23:06:47.800 1f88 Recovering log #3
+2021/11/04-23:06:47.801 1f88 Reusing old log C:\Users\Wilker\AppData\Local\Temp\flutter_tools.d3ba3318\flutter_tools_chrome_device.a58b34ff\Default\Session Storage/000003.log 
+2021/11/04-23:16:43.061 ab0 Level-0 table #5: started
+2021/11/04-23:16:43.067 ab0 Level-0 table #5: 304924 bytes OK
+2021/11/04-23:16:43.069 ab0 Delete type=0 #3
+2021/11/04-23:18:25.151 7f8 Level-0 table #7: started
+2021/11/04-23:18:25.162 7f8 Level-0 table #7: 398222 bytes OK
+2021/11/04-23:18:25.165 7f8 Delete type=0 #4
+2021/11/04-23:18:30.154 ab0 Level-0 table #9: started
+2021/11/04-23:18:30.163 ab0 Level-0 table #9: 698726 bytes OK
+2021/11/04-23:18:30.165 ab0 Delete type=0 #6
+2021/11/04-23:21:54.096 2310 Level-0 table #11: started
+2021/11/04-23:21:54.103 2310 Level-0 table #11: 305637 bytes OK
+2021/11/04-23:21:54.104 2310 Delete type=0 #8
+2021/11/04-23:22:51.121 ffc Level-0 table #13: started
+2021/11/04-23:22:51.128 ffc Level-0 table #13: 413708 bytes OK
+2021/11/04-23:22:51.130 ffc Delete type=0 #10
+2021/11/04-23:48:15.665 ffc Level-0 table #15: started
+2021/11/04-23:48:15.686 ffc Level-0 table #15: 321648 bytes OK
+2021/11/04-23:48:15.689 ffc Delete type=0 #12
+2021/11/04-23:48:15.690 ffc Compacting 4@0 + 1@1 files
+2021/11/04-23:48:15.718 ffc Generated table #16@0: 30 keys, 718179 bytes
+2021/11/04-23:48:15.718 ffc Compacted 4@0 + 1@1 files => 718179 bytes
+2021/11/04-23:48:15.719 ffc compacted to: files[ 0 1 1 0 0 0 0 ]
+2021/11/04-23:48:15.724 ffc Delete type=2 #7
+2021/11/04-23:48:15.724 ffc Delete type=2 #9
+2021/11/04-23:48:15.724 ffc Delete type=2 #11
+2021/11/04-23:48:15.724 ffc Delete type=2 #13
+2021/11/04-23:48:15.724 ffc Delete type=2 #15

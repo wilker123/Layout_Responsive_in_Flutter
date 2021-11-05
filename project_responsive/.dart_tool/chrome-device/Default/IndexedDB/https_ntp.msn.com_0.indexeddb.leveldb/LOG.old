@@ -1,2 +1,3 @@
-2021/11/02-19:58:21.433 2004 Creating DB C:\Users\Wilker\AppData\Local\Temp\flutter_tools.944daa4f\flutter_tools_chrome_device.6ed510c7\Default\IndexedDB\https_ntp.msn.com_0.indexeddb.leveldb since it was missing.
-2021/11/02-19:58:21.437 2004 Reusing MANIFEST C:\Users\Wilker\AppData\Local\Temp\flutter_tools.944daa4f\flutter_tools_chrome_device.6ed510c7\Default\IndexedDB\https_ntp.msn.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/04-23:06:47.107 1ba0 Reusing MANIFEST C:\Users\Wilker\AppData\Local\Temp\flutter_tools.d3ba3318\flutter_tools_chrome_device.a58b34ff\Default\IndexedDB\https_ntp.msn.com_0.indexeddb.leveldb/MANIFEST-000001
+2021/11/04-23:06:47.108 1ba0 Recovering log #3
+2021/11/04-23:06:47.108 1ba0 Reusing old log C:\Users\Wilker\AppData\Local\Temp\flutter_tools.d3ba3318\flutter_tools_chrome_device.a58b34ff\Default\IndexedDB\https_ntp.msn.com_0.indexeddb.leveldb/000003.log 
