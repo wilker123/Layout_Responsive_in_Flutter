@@ -23,17 +23,17 @@ class _HomePageState extends State<HomePage> {
                   child: MobileAppBar(),
                   preferredSize: Size(double.infinity, 56),
                 )
-              : PreferredSize(
+              : const PreferredSize(
                   child: WebAppBar(),
                   preferredSize: Size(double.infinity, 60),
                 ),
-          drawer: constraints.maxWidth <= mobileBreakPoint ? Drawer() : null,
+          drawer: constraints.maxWidth <= mobileBreakPoint ? const Drawer() : null,
           body: Align(
             alignment: Alignment.topCenter,
             child: ConstrainedBox(
-              constraints: BoxConstraints(maxWidth: 1200),
+              constraints: const BoxConstraints(maxWidth: 1200),
               child: ListView(
-                children: [
+                children: const [
                   TopSection(),
                 ],
               ),

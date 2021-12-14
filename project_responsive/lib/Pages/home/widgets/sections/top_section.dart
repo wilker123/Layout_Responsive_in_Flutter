@@ -29,10 +29,10 @@ class TopSection extends StatelessWidget {
                     color: Colors.black,
                     elevation: 8,
                     child: Container(
-                      padding: EdgeInsets.all(22.0),
+                      padding: const EdgeInsets.all(22.0),
                       width: 450,
                       child: Column(
-                        children: [
+                        children: const [
                           Text(
                             "Aprenda flutter com es curso!",
                             style: TextStyle(
@@ -41,7 +41,7 @@ class TopSection extends StatelessWidget {
                               color: Colors.white,
                             ),
                           ),
-                          const SizedBox(
+                          SizedBox(
                             height: 8,
                           ),
                           Text(
@@ -51,7 +51,7 @@ class TopSection extends StatelessWidget {
                               color: Colors.white,
                             ),
                           ),
-                          const SizedBox(
+                          SizedBox(
                             height: 20,
                           ),
                           CustomSearchField(),

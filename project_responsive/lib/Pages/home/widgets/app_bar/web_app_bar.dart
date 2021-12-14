@@ -1,3 +1,5 @@
+// ignore_for_file: deprecated_member_use
+
 import 'package:flutter/material.dart';
 
 import 'web_app_bar_responsive_content.dart';
@@ -12,13 +14,13 @@ class WebAppBar extends StatelessWidget {
       toolbarHeight: 72,
       title: Row(
         children: [
-          Text("Flutter"),
+          const Text("Flutter"),
           const SizedBox(
             width: 32,
           ),
-          WebAppBarResponsiveContent(),
+          const WebAppBarResponsiveContent(),
           IconButton(
-            icon: Icon(Icons.shopping_cart),
+            icon: const Icon(Icons.shopping_cart),
             onPressed: () {},
           ),
           const SizedBox(
@@ -27,9 +29,9 @@ class WebAppBar extends StatelessWidget {
           SizedBox(
             height: 38,
             child: OutlineButton(
-              child: Text("Fazer login"),
+              child: const Text("Fazer login"),
               textColor: Colors.white,
-              borderSide: BorderSide(color: Colors.white, width: 2),
+              borderSide: const BorderSide(color: Colors.white, width: 2),
               onPressed: () {},
             ),
           ),
@@ -39,7 +41,7 @@ class WebAppBar extends StatelessWidget {
           SizedBox(
             height: 40,
             child: RaisedButton(
-              child: Text("Cadastre-se"),
+              child: const Text("Cadastre-se"),
               color: Colors.white,
               textColor: Colors.black,
               onPressed: () {},
