@@ -14,6 +14,7 @@ class CourseItem extends StatelessWidget {
         const Flexible(
           child: AutoSizeText(
             "Criação de apps android e ios com flutter - Crie 16 apps",
+            minFontSize: 3,
             style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: Colors.white),
           ),
         ),
