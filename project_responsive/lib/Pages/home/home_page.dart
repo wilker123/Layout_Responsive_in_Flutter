@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:project_responsive/Pages/home/widgets/sections/advantages_section.dart';
+import 'package:project_responsive/Pages/home/widgets/sections/courses_section.dart';
 import 'package:project_responsive/breackpoints.dart';
 
 import 'widgets/app_bar/mobile_app_bar.dart';
@@ -39,6 +40,7 @@ class _HomePageState extends State<HomePage> {
                   TopSection(),
                   SizedBox(height: 10,),
                   AdvantagesSections(),
+                  CoursesSection(),
                 ],
               ),
             ),
