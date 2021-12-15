@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'Pages/home/home_page.dart';
 
 void main() {
-  runApp(DevicePreview(builder: (_) => MyApp()));
+  runApp(DevicePreview(builder: (_) => const MyApp()));
 }
 
 
@@ -15,10 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: 'Projeto Layout Responsivo',
+      title: 'Project Layout Responsive',
       builder: DevicePreview.appBuilder,
       locale: DevicePreview.locale(context),
-      home: HomePage(),
+      home: const HomePage(),
     );
   }
 }

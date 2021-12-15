@@ -29,7 +29,7 @@ class _CoursesSectionState extends State<CoursesSection> {
             shrinkWrap: true,
             itemCount: 20,
             itemBuilder: (context, index) {
-              return CourseItem();
+              return const CourseItem();
             }
         );
       }
