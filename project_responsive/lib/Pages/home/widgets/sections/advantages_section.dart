@@ -14,7 +14,7 @@ class _AdvantagesSectionsState extends State<AdvantagesSections> {
   return Row(
     mainAxisSize: MainAxisSize.min,
     children: [
-      Icon(
+      const Icon(
         Icons.stars,
         color: Colors.white,
         size: 50,
@@ -33,10 +33,14 @@ class _AdvantagesSectionsState extends State<AdvantagesSections> {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.symmetric(horizontal: 16),
+      padding: const EdgeInsets.fromLTRB(16,0,16,16),
+      decoration: const BoxDecoration(
+        border: Border(bottom: BorderSide(color: Colors.grey)),
+      ),
       child: Wrap(
         alignment: WrapAlignment.spaceEvenly,
-        runSpacing: 30,
+        runSpacing: 16,
+        spacing: 8,
         children: [
           buildAdvantage("+45.000 alunos!", "Futuro garantido!"),
           buildAdvantage("+45.000 alunos", "Futuro garantido!"),

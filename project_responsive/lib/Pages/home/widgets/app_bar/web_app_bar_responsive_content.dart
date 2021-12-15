@@ -23,7 +23,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                         width: 4,
                       ),
                       IconButton(
-                        icon: Icon(Icons.search),
+                        icon: const Icon(Icons.search),
                         color: Colors.grey[500],
                         onPressed: () {},
                       ),
@@ -45,7 +45,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                   width: 12,
                 ),
               FlatButton(
-                child: Text("Aprender"),
+                child: const Text("Aprender"),
                 textColor: Colors.white,
                 onPressed: () {},
               ),
@@ -54,7 +54,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                   width: 8,
                 ),
               FlatButton(
-                child: Text("Flutter"),
+                child: const Text("Flutter"),
                 textColor: Colors.white,
                 onPressed: () {},
               ),
