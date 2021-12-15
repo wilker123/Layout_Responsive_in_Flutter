@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:project_responsive/breackpoints.dart';
 
+import '../course_item.dart';
+
 class CoursesSection extends StatefulWidget {
   const CoursesSection({Key? key}) : super(key: key);
 
@@ -27,7 +29,7 @@ class _CoursesSectionState extends State<CoursesSection> {
             shrinkWrap: true,
             itemCount: 20,
             itemBuilder: (context, index) {
-              return Container(color: Colors.red,);
+              return CourseItem();
             }
         );
       }
