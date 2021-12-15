@@ -1,4 +1,2 @@
-2021/11/06-15:45:09.662 1d40 Reusing MANIFEST C:\Users\Wilker\AppData\Local\Temp\flutter_tools.a5c8cc7e\flutter_tools_chrome_device.c7fa7866\Default\Session Storage/MANIFEST-000001
-2021/11/06-15:45:09.664 1d40 Recovering log #14
-2021/11/06-15:45:09.665 1d40 Reusing old log C:\Users\Wilker\AppData\Local\Temp\flutter_tools.a5c8cc7e\flutter_tools_chrome_device.c7fa7866\Default\Session Storage/000014.log 
-2021/11/06-15:45:09.669 1d40 Delete type=0 #3
+2021/12/15-10:39:49.693 3 Creating DB /tmp/flutter_tools.AAWJJI/flutter_tools_chrome_device.MLXMPG/Default/Session Storage since it was missing.
+2021/12/15-10:39:49.702 3 Reusing MANIFEST /tmp/flutter_tools.AAWJJI/flutter_tools_chrome_device.MLXMPG/Default/Session Storage/MANIFEST-000001

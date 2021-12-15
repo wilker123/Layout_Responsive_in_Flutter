@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:project_responsive/Pages/home/widgets/sections/advantages_section.dart';
 import 'package:project_responsive/breackpoints.dart';
 
 import 'widgets/app_bar/mobile_app_bar.dart';
@@ -24,7 +25,7 @@ class _HomePageState extends State<HomePage> {
                   child: MobileAppBar(),
                   preferredSize: Size(double.infinity, 56),
                 )
-              : PreferredSize(
+              : const PreferredSize(
                   child: WebAppBar(),
                   preferredSize: Size(double.infinity, 60),
                 ),
@@ -34,8 +35,10 @@ class _HomePageState extends State<HomePage> {
             child: ConstrainedBox(
               constraints: BoxConstraints(maxWidth: 1200),
               child: ListView(
-                children: [
+                children: const [
                   TopSection(),
+                  SizedBox(height: 10,),
+                  AdvantagesSections(),
                 ],
               ),
             ),
