@@ -7,7 +7,7 @@ class AdvantagesSections extends StatefulWidget {
   @override
   _AdvantagesSectionsState createState() => _AdvantagesSectionsState();
 }
-
+ 
 class _AdvantagesSectionsState extends State<AdvantagesSections> {
 
   Widget buildHorizontalAdvantages(String title, String subtitle){
