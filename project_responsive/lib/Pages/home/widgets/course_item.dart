@@ -1,3 +1,4 @@
+import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 class CourseItem extends StatelessWidget {
@@ -10,7 +11,7 @@ class CourseItem extends StatelessWidget {
       children: [
         Image.network("https://miro.medium.com/max/700/1*73IgUxPfyXUKZAaIXgutrw.png", fit: BoxFit.fitWidth,),
         const SizedBox(height: 4,),
-        const Text(
+        const AutoSizeText(
           "Criação de apps android e ios com flutter - Crie 16 apps",
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: Colors.white),
         ),
