@@ -1,5 +1,3 @@
-// ignore_for_file: deprecated_member_use
-
 import 'package:flutter/material.dart';
 
 class WebAppBarResponsiveContent extends StatelessWidget {
@@ -25,7 +23,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                         width: 4,
                       ),
                       IconButton(
-                        icon: const Icon(Icons.search),
+                        icon: Icon(Icons.search),
                         color: Colors.grey[500],
                         onPressed: () {},
                       ),
@@ -47,7 +45,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                   width: 12,
                 ),
               FlatButton(
-                child: const Text("Aprender"),
+                child: Text("Aprender"),
                 textColor: Colors.white,
                 onPressed: () {},
               ),
@@ -56,7 +54,7 @@ class WebAppBarResponsiveContent extends StatelessWidget {
                   width: 8,
                 ),
               FlatButton(
-                child: const Text("Flutter"),
+                child: Text("Flutter"),
                 textColor: Colors.white,
                 onPressed: () {},
               ),

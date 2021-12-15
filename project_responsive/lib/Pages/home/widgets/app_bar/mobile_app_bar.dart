@@ -11,11 +11,11 @@ class MobileAppBar extends StatelessWidget {
       centerTitle: true,
       actions: [
         IconButton(
-          icon: const Icon(Icons.search),
+          icon: Icon(Icons.search),
           onPressed: () {},
         ),
         IconButton(
-          icon: const Icon(Icons.shopping_cart),
+          icon: Icon(Icons.shopping_cart),
           onPressed: () {},
         ),
       ],
