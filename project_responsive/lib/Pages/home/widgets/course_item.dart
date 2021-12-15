@@ -13,6 +13,8 @@ class CourseItem extends StatelessWidget {
           "Criação de apps android e ios com flutter - Crie 16 apps",
           style: TextStyle(fontWeight: FontWeight.bold, fontSize: 15, color: Colors.white),
         ),
+        const Text("José Wilker", style: TextStyle(color: Colors.grey),),
+        const Text("R\$22,90", style: TextStyle(fontWeight: FontWeight.bold, fontSize: 14, color: Colors.white),),
       ],
     );
   }
